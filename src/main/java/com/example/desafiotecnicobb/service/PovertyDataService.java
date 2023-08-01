@@ -1,9 +1,9 @@
 package com.example.desafiotecnicobb.service;
 
 import com.example.desafiotecnicobb.client.PovertyDataClient;
-import com.example.desafiotecnicobb.domain.CountryDTO;
-import com.example.desafiotecnicobb.domain.DataDTO;
-import com.example.desafiotecnicobb.domain.IndicatorDTO;
+import com.example.desafiotecnicobb.response.CountryDTO;
+import com.example.desafiotecnicobb.response.DataDTO;
+import com.example.desafiotecnicobb.response.IndicatorDTO;
 import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;

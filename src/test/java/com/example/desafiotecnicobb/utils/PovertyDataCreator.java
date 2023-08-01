@@ -1,8 +1,8 @@
 package com.example.desafiotecnicobb.utils;
 
-import com.example.desafiotecnicobb.domain.CountryDTO;
-import com.example.desafiotecnicobb.domain.DataDTO;
-import com.example.desafiotecnicobb.domain.IndicatorDTO;
+import com.example.desafiotecnicobb.response.CountryDTO;
+import com.example.desafiotecnicobb.response.DataDTO;
+import com.example.desafiotecnicobb.response.IndicatorDTO;
 
 import java.util.List;
 import java.util.Map;

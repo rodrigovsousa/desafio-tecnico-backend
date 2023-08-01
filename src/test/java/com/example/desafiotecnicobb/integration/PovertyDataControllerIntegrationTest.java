@@ -1,7 +1,7 @@
 package com.example.desafiotecnicobb.integration;
 
 import com.example.desafiotecnicobb.controller.PovertyDataController;
-import com.example.desafiotecnicobb.domain.DataDTO;
+import com.example.desafiotecnicobb.response.DataDTO;
 import com.example.desafiotecnicobb.service.PovertyDataService;
 import com.example.desafiotecnicobb.utils.PovertyDataCreator;
 import org.junit.jupiter.api.Test;

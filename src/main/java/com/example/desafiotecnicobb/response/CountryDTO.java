@@ -1,4 +1,4 @@
-package com.example.desafiotecnicobb.domain;
+package com.example.desafiotecnicobb.response;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
@@ -9,8 +9,7 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @NoArgsConstructor
 @Builder
-public class DataDTO {
-    private IndicatorDTO indicator;
-    private CountryDTO country;
-    private String date;
+public class CountryDTO {
+    private String id;
+    private String value;
 }

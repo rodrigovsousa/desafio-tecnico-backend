@@ -1,11 +1,10 @@
 package com.example.desafiotecnicobb.controller;
 
-import com.example.desafiotecnicobb.domain.DataDTO;
+import com.example.desafiotecnicobb.response.DataDTO;
 import com.example.desafiotecnicobb.service.PovertyDataService;
 import io.swagger.annotations.ApiResponse;
 import io.swagger.annotations.ApiResponses;
 import io.swagger.v3.oas.annotations.Operation;
-import org.springframework.data.domain.Page;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;

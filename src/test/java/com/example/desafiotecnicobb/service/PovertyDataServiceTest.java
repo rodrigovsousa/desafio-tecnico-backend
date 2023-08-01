@@ -1,9 +1,8 @@
 package com.example.desafiotecnicobb.service;
 
 import com.example.desafiotecnicobb.client.PovertyDataClient;
-import com.example.desafiotecnicobb.domain.DataDTO;
+import com.example.desafiotecnicobb.response.DataDTO;
 import com.example.desafiotecnicobb.utils.PovertyDataCreator;
-import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.mockito.InjectMocks;

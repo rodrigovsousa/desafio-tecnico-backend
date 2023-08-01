@@ -1,4 +1,4 @@
-package com.example.desafiotecnicobb.domain;
+package com.example.desafiotecnicobb.response;
 
 import lombok.*;
 
@@ -8,7 +8,9 @@ import java.io.Serializable;
 @AllArgsConstructor
 @NoArgsConstructor
 @Builder
-public class CountryDTO implements Serializable {
+public class IndicatorDTO implements Serializable {
     private String id;
     private String value;
 }
+
+
